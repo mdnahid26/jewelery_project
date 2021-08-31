@@ -1,0 +1,375 @@
+/*
+Template name:
+Author:
+Version:1.0
+
+
+-------------------------------------------------------------
+Table Of Contents
+-------------------------------------------------------------
+
+*/
+
+/*common css start*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,
+ul,ol,
+span,
+p{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/*common css end*/
+
+/*navbar css start*/
+#my_nav{
+    background-color: #111;
+}
+#my_nav .logo{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+}
+#my_nav #main_manu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 18px;
+}
+#my_nav #main_manu ul li a i{
+    font-size: 24px;
+}
+/*navbar css end*/
+/*#my_nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}*/
+/*banner css start*/
+#banner{
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#banner .banner_item h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #ffffff;
+}
+#banner .banner_item h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#banner .banner_item a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    margin: 40px 25px 0 0;
+    transition: all linear .3s;
+    border-radius: 5px;
+}
+#banner .banner_item a:hover{
+    background-color: #e92121;
+    border-color: #e92121;
+}
+/*banner css end*/
+
+/*history css start*/
+#history{
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 100px 0;
+}
+#history .history_head{
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+}
+#history .history_head h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: 100px;
+    top: 50%;
+}
+#history .history_text p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #b7b7b7;
+    padding-bottom: 30px;
+}
+/*history css end*/
+
+/*work css start*/
+#work{
+    padding: 100px 0;
+}
+#work .work_ttl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #464646;
+}
+#work .work_ttl p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #b7b7b7;
+}
+#work .work_item{
+    width: 265px;
+    margin-top:130px ;
+}
+#work .work_item i{
+    color: red;
+   font-size: 50px;
+}
+#work .work_item h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: #464646;
+    font-weight: 700;
+    padding: 28px 0;
+}
+#work .work_item p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #b7b7b7;
+}
+/*work css end*/
+
+/*mercury css start*/
+#mercury{
+    background: #faf9f9;
+    padding: 100px 0;
+    position: relative;
+}
+#mercury .mercury_slick .mercury_arrow{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #393939;
+    font-size: 20px;
+    z-index: 1111;
+    cursor: pointer;
+}
+#mercury .mercury_slick  .left{
+    left: -30px;
+}
+#mercury .mercury_slick .right{
+    right: -30px;
+}
+#mercury .mercury_dattails h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #464646;
+}
+#mercury .mercury_dattails img{
+    padding: 20px 0;
+}
+#mercury .mercury_dattails p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #b7b7b7;
+}
+#mercury .mercury_dattails a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+#mercury .mercury_dattails a:hover{
+    background-color: #e92121;
+    color: #ffffff;
+    border-color: #e92121;
+}
+/*mercury css end*/
+
+/*jewelery css start*/
+#jewelery{
+    padding: 100px 0;
+}
+#jewelery .choose_item_container h2{
+    font-size: 48px;
+    line-height: 60px;
+    width: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#jewelery .choose_item_container h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+#jewelery .choose_item_container p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #b7b7b7;
+    margin-bottom:80px ;
+    width: 220px;
+}
+#jewelery .jewelery_item_container img{
+    width: 100%;
+    display: block;
+}
+#jewelery .jewelery_item_container h3{
+    font-size: 48px;
+    line-height: 60px;
+    width: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:50px ;
+}
+#jewelery .jewelery_item_container p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #b7b7b7;
+    padding-top: 50px;
+}
+/*jeselery css end*/
+
+/*customers css start*/
+#customers{
+    background-color: #faf9f9;
+    padding: 100px 0;
+}
+#customers .customers_ttl{
+    padding-bottom: 85px;
+}
+#customers .customers_ttl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#customers .customers_ttl img{
+    padding: 20px 0;
+}
+#customers .customers_ttl p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #b7b7b7;
+}
+#customers .customers_item_container{
+    padding-bottom: 80px;
+}
+#customers .customers_item_container .customers_icon i {
+    display: inline-block;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #e92121;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#customers .customers_item_container .customers_item h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #464646;
+}
+#customers .customers_item_container .customers_item span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #b7b7b7;
+}
+#customers .customers_item_container .customers_item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #b7b7b7;
+}
+/*customers css end*/
+
+/*photoblog css start*/
+#photoblog{
+    padding: 100px 0;
+}
+#photoblog img{
+   width: 100%;
+   display: block;
+}
+#photoblog h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 100px;
+    text-transform: uppercase;
+}
+#photoblog p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #b7b7b7;
+    padding-top: 50px;
+    width: 420px;
+}
+/*photoblog css end*/
+
+/*footer css start*/
+#footer{
+    background-color: #141414;
+    padding: 75px 0;
+}
+#footer h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#footer .footer_icon a{
+    font-size: 36px;
+    line-height: 30px;
+    color: #474747;
+    margin-right: 15px;
+}
+#footer .footer_item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #474747;
+}
+/*footer css end*/
